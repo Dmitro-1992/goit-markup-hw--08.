@@ -9,12 +9,7 @@
      align-items: center;
      display: flex; 
   }
-  .nav {
-   @media (max-width:480px){
-
-     display:none;
-   }
-  }
+  
 
   
    .logo{
@@ -32,7 +27,7 @@
    }
 
  
-  .site-nav{
+  .site-nav{  
   
     &__list+ &__list{
       margin-left: 50px;
